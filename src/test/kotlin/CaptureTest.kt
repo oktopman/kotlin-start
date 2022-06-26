@@ -23,6 +23,4 @@ class CaptureTest {
     }
 }
 
-data class Person(val name: String, val age: Int = 1)
-
 class Ref<T>(var value: T)
