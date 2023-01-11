@@ -13,6 +13,7 @@ repositories {
 }
 
 dependencies {
+    testImplementation("io.kotest", "kotest-runner-junit5", "5.2.3")
     testImplementation(kotlin("test"))
 }
 
